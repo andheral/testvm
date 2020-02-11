@@ -1,0 +1,9 @@
+---
+- hosts: localhost
+  gather_facts: no
+  vars:
+    vcenter_server: "10.1.1.100"
+    vcenter_user: "administrator@vsphere.local"
+    vcenter_pass: "Pa$$w0rd"
+    datacenter_name: "Datacenter"
+    cluster_name: "Cluster"

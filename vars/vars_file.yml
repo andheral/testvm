@@ -1,0 +1,7 @@
+---
+
+  vcenter_hostname: test.vsphere.local
+  vcenter_username: andrea.hernandez
+  vcenter_password: test
+  datacenter_name: test
+  guest_name: guest

@@ -1,0 +1,6 @@
+---
+- name: Add a line to a file if the file does not exist, without         passing regexp
+  lineinfile:
+    path: /etc/hosts
+    line: 10.200.50.51 tecmint.com
+    create: yes
